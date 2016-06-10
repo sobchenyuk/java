@@ -5,6 +5,7 @@
  */
 package hometasks.task1.subtask1;
 
+
 /**
  *С помощью арифметических операций, операций сравнения и конструкций 
 if­else и циклических операций создать приложение которое: 
@@ -18,10 +19,13 @@ public class App {
   System.out.print("\n"+" значения кратные 2:  ");
     for (int i = 0; i <= 100; i++) {
         if (i % 2 ==0){
-  System.out.print(i  + " ");
-    }
-        
+      System.out.print(i +" ");  
+    } 
    } 
+
+    
+    
+    
   System.out.print("\n"+" значения кратные 3:  ");
     for (int i = 0; i <= 100; i++) {
         if (i % 3 ==0){
