@@ -30,16 +30,10 @@ public class App {
         
         }
     
-    System.out.print(Arrays.toString(arr)+ " ");
-    
-        //String ar  = Arrays.toString(arr);
-    
-    
-  
-    
-        
-
-    
+    System.out.print(Arrays.toString(arr)+ "\n");
+        String arry = Arrays.toString(arr);
+    String b = new StringBuffer(arry).reverse().toString();
+    System.out.print(b + " "); 
     }
 
 
